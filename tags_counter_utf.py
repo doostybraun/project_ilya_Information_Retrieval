@@ -3,7 +3,7 @@ import remove_chars_from_text
 import unique_words_counter
 #nltk.help.upenn_tagset()
 
-#text1 = open(r'C:\Users\lisin\OneDrive\Рабочий стол\Third semester Sami Shimoon\InformationSearch\project_content\DocumentsToRead\Science\Уоллес Д..txt').read()
+text1 = open(r'C:\Users\lisin\OneDrive\Рабочий стол\Third semester Sami Shimoon\InformationSearch\project_content\DocumentsToRead\Money\О.З..txt', encoding="utf-8").read()
 
 
 def counter(text, part_of_speech="default"):
@@ -14,7 +14,6 @@ def counter(text, part_of_speech="default"):
     S_PRO_counter=0 #местоимение
     INTJ_counter=0 #междометие
     PR_and_CONJ_counter=0 #частица
-    ADV_counter=0
     
     #Cleaning
     txt_clean = remove_chars_from_text.remove_chars_from_text(text)
@@ -37,12 +36,9 @@ def counter(text, part_of_speech="default"):
                 INTJ_counter+=1
             elif(tag == "PR" or tag == "CONJ"):
                 PR_and_CONJ_counter+=1
-            elif(tag == "ADV"):
-                ADV_counter+=1
                 
-    return [A_f_and_A_p1_counter/len(txt_clean_tokenized), S_counter/len(txt_clean_tokenized), V_counter/len(txt_clean_tokenized), S_PRO_counter/len(txt_clean_tokenized), INTJ_counter/len(txt_clean_tokenized), PR_and_CONJ_counter/len(txt_clean_tokenized), ADV_counter/len(txt_clean_tokenized)]
+    return [A_f_and_A_p1_counter/unique_words_counter.amount_of_unique_words(text), S_counter/unique_words_counter.amount_of_unique_words(text), V_counter/len(txt_clean_tokenized), S_PRO_counter/unique_words_counter.amount_of_unique_words(text), INTJ_counter/unique_words_counter.amount_of_unique_words(text), PR_and_CONJ_counter/unique_words_counter.amount_of_unique_words(text)]
 
-#print(counter(text1))
-
+print(counter(text1))
 
 

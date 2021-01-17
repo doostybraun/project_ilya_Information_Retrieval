@@ -1,6 +1,7 @@
 import nltk
 import remove_chars_from_text
-text1 = open(r'C:\Users\lisin\OneDrive\Рабочий стол\Third semester Sami Shimoon\InformationSearch\project_content\DocumentsToRead\Деловой стиль\Заявления.txt', encoding="utf-8").read()
+
+#text1 = open(r'C:\Users\lisin\OneDrive\Рабочий стол\Third semester Sami Shimoon\InformationSearch\project_content\DocumentsToRead\Money\medicutf.txt', encoding="utf-8").read()
 
 def average_word_length(text):
     txt_clean = remove_chars_from_text.remove_chars_from_text(text)
@@ -18,23 +19,22 @@ def average_word_length(text):
 def average_sent_length(text):
     txt_clean = remove_chars_from_text.remove_spcfk_chars(text)
     txt_sents_tokenized = nltk.tokenize.sent_tokenize(txt_clean, language="russian")
-    sum_words_sent=0
+    sum_words_sent=0.0
     flag=0
-    while flag<len(txt_sents_tokenized):
+    while flag < len(txt_sents_tokenized):
         sent_token = txt_sents_tokenized[flag]
         flag += 1
         clean_tokenized_sent_token = remove_chars_from_text.remove_chars_from_text(sent_token)
         tokenized_sent_token = nltk.tokenize.word_tokenize(clean_tokenized_sent_token, language="russian")
         sum_words_sent += len(tokenized_sent_token)
-        print(sum_words_sent)
         final = 0
-        if(flag+1==len(txt_sents_tokenized)):
-
-            sum_words_sent = sum_words_sent/len(txt_sents_tokenized)
-            print(sum_words_sent)
-    return sum_words_sent
+        if(flag+1 > len(txt_sents_tokenized)):
+            #средняя длина предложения
+            #print(sum_words_sent, len(txt_sents_tokenized), sum_words_sent/len(txt_sents_tokenized))
+            sum_words_sent = sum_words_sent/len(txt_sents_tokenized)    
+            return sum_words_sent
         
 
 
 
-a=average_sent_length(text1)
+#a=average_sent_length(text1)

@@ -4,7 +4,7 @@ import helper
 
 #txt2="Я и три маленьких и два больших гнома зашли вчера ко мне в дом, смеясь от радости, и , бац!, уселись на пол,чтобы сообщить мне неожиданную новость."
 
-#text1 = open(r'C:\Users\lisin\OneDrive\Рабочий стол\Third semester Sami Shimoon\InformationSearch\project_content\DocumentsToRead\Science\science8.txt').read()
+#text1 = open(r'C:\Users\lisin\OneDrive\Рабочий стол\Third semester Sami Shimoon\InformationSearch\project_content\DocumentsToRead\Money\prikaz11utf.txt', encoding="utf-8").read()
 
 
 counter=0
@@ -34,8 +34,8 @@ def Beta(text):
 
                 if(helper.helper_for_VB(tagged_token[1]) and helper.helper_for_ADV(next_token[1])):
                         counter_ADV+=1
-        return [(counter_for_VB + counter_ADV)/(counter_for_NN + counter_A_f)]
-              
+        return (counter_for_VB + counter_ADV)/(counter_for_NN + counter_A_f)              
 
 #print(Beta(text1))
 
+#sents=None
