@@ -3,8 +3,7 @@ import remove_chars_from_text
 import unique_words_counter
 #nltk.help.upenn_tagset()
 
-#text1 = open(r'C:\Users\lisin\OneDrive\Рабочий стол\Third semester Sami Shimoon\InformationSearch\project_content\DocumentsToRead\Science\Уоллес Д..txt').read()
-
+#text1 = open(r'C:\Users\lisin\OneDrive\Рабочий стол\Third semester Sami Shimoon\InformationSearch\project_content\DocumentsToRead\ocherk\Эдик Штейнберг.txt').read()
 
 def counter(text, part_of_speech="default"):
     #Counters
