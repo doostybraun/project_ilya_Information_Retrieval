@@ -1,0 +1,1052 @@
+
+Not normalized grade vector
+[(0, 2.5), (1, 7.5), (2, 0.0), (3, 0.0)]
+Normalized grade vector
+[(1, 7.5), (0, 2.5), (2, 0.0), (3, 0.0)]
+second point result  2.5 second vector result научный стиль
+We prefered point result
+Distance index's:  0 2  Point index's:  0 1
+Points
+2.5 7.5 0.0 0.0
+Normalized posibility vector
+[['деловой стиль', 0.05231077721872815], ['научный стиль', 0.08791206691052392], ['публицистический стиль', 0.11319588395569866], ['художественный стиль', 0.17901813324298615]]
+Final style matrix
+['D', 'None', 'Bussiness project(Low connectivity)', 'None'] 
+ ['None', 'D', 'Фэнтези', 'Очерк, фельетон, роман фельетон'] 
+ ['Bussiness project(Low connectivity)', 'Фэнтези', 'D', 'Sciefie(Low connectivity)'] 
+ ['None', 'Очерк, фельетон, роман фельетон', 'Sciefie(Low connectivity)', 'D']
+Answer
+None OR LESS POSIBLE Bussiness project(Low connectivity)
+#####################################################
+Not normalized grade vector
+[(0, 2.5), (1, 7.5), (2, 0.0), (3, 5.0)]
+Normalized grade vector
+[(1, 7.5), (3, 5.0), (0, 2.5), (2, 0.0)]
+second point result  5.0 second vector result научный стиль
+We prefered point result
+Distance index's:  3 2  Point index's:  3 1
+Points
+2.5 7.5 0.0 5.0
+Normalized posibility vector
+[['публицистический стиль', 0.014159882736476547], ['научный стиль', 0.02936619250104381], ['художественный стиль', 0.08295943067919394], ['деловой стиль', 0.1522703055736385]]
+Final style matrix
+['D', 'None', 'Bussiness project(Low connectivity)', 'None'] 
+ ['None', 'D', 'Фэнтези', 'Очерк, фельетон, роман фельетон'] 
+ ['Bussiness project(Low connectivity)', 'Фэнтези', 'D', 'Sciefie(Low connectivity)'] 
+ ['None', 'Очерк, фельетон, роман фельетон', 'Sciefie(Low connectivity)', 'D']
+Answer
+Очерк, фельетон, роман фельетон OR LESS POSIBLE Sciefie(Low connectivity)
+#####################################################
+Not normalized grade vector
+[(0, 2.5), (1, 7.5), (2, 7.5), (3, 0.0)]
+Normalized grade vector
+[(1, 7.5), (2, 7.5), (0, 2.5), (3, 0.0)]
+second point result  7.5 second vector result публицистический стиль
+We prefered point result
+Distance index's:  1 3  Point index's:  2 1
+Points
+2.5 7.5 7.5 0.0
+Normalized posibility vector
+[['художественный стиль', 0.10738348888780842], ['публицистический стиль', 0.12229777490718258], ['научный стиль', 0.1437176819669493], ['деловой стиль', 0.2766713178106504]]
+Final style matrix
+['D', 'None', 'Bussiness project(Low connectivity)', 'None'] 
+ ['None', 'D', 'Фэнтези', 'Очерк, фельетон, роман фельетон'] 
+ ['Bussiness project(Low connectivity)', 'Фэнтези', 'D', 'Sciefie(Low connectivity)'] 
+ ['None', 'Очерк, фельетон, роман фельетон', 'Sciefie(Low connectivity)', 'D']
+Answer
+Фэнтези OR LESS POSIBLE Очерк, фельетон, роман фельетон
+#####################################################
+Not normalized grade vector
+[(0, 2.5), (1, 7.5), (2, 0.0), (3, 5.0)]
+Normalized grade vector
+[(1, 7.5), (3, 5.0), (0, 2.5), (2, 0.0)]
+second point result  5.0 second vector result публицистический стиль
+We prefered point result
+Distance index's:  1 3  Point index's:  3 1
+Points
+2.5 7.5 0.0 5.0
+Normalized posibility vector
+[['художественный стиль', 0.13897697626850533], ['публицистический стиль', 0.14832113735201435], ['научный стиль', 0.16587246124346974], ['деловой стиль', 0.297635399253047]]
+Final style matrix
+['D', 'None', 'Bussiness project(Low connectivity)', 'None'] 
+ ['None', 'D', 'Фэнтези', 'Очерк, фельетон, роман фельетон'] 
+ ['Bussiness project(Low connectivity)', 'Фэнтези', 'D', 'Sciefie(Low connectivity)'] 
+ ['None', 'Очерк, фельетон, роман фельетон', 'Sciefie(Low connectivity)', 'D']
+Answer
+Очерк, фельетон, роман фельетон OR LESS POSIBLE Очерк, фельетон, роман фельетон
+#####################################################
+Not normalized grade vector
+[(0, 2.5), (1, 7.5), (2, 7.5), (3, 0.0)]
+Normalized grade vector
+[(1, 7.5), (2, 7.5), (0, 2.5), (3, 0.0)]
+second point result  7.5 second vector result научный стиль
+We prefered point result
+Distance index's:  3 2  Point index's:  2 1
+Points
+2.5 7.5 7.5 0.0
+Normalized posibility vector
+[['публицистический стиль', 0.016360511430213654], ['научный стиль', 0.028798847438133598], ['художественный стиль', 0.08424018013721883], ['деловой стиль', 0.16053169395563224]]
+Final style matrix
+['D', 'None', 'Bussiness project(Low connectivity)', 'None'] 
+ ['None', 'D', 'Фэнтези', 'Очерк, фельетон, роман фельетон'] 
+ ['Bussiness project(Low connectivity)', 'Фэнтези', 'D', 'Sciefie(Low connectivity)'] 
+ ['None', 'Очерк, фельетон, роман фельетон', 'Sciefie(Low connectivity)', 'D']
+Answer
+Фэнтези OR LESS POSIBLE Sciefie(Low connectivity)
+#####################################################
+Not normalized grade vector
+[(0, 2.5), (1, 10.0), (2, 0.0), (3, 5.0)]
+Normalized grade vector
+[(1, 10.0), (3, 5.0), (0, 2.5), (2, 0.0)]
+second point result  5.0 second vector result публицистический стиль
+We prefered point result
+Distance index's:  1 3  Point index's:  3 1
+Points
+2.5 10.0 0.0 5.0
+Normalized posibility vector
+[['художественный стиль', 0.12917898202063186], ['публицистический стиль', 0.14095534743471674], ['научный стиль', 0.15950852909668395], ['деловой стиль', 0.29244168748303495]]
+Final style matrix
+['D', 'None', 'Bussiness project(Low connectivity)', 'None'] 
+ ['None', 'D', 'Фэнтези', 'Очерк, фельетон, роман фельетон'] 
+ ['Bussiness project(Low connectivity)', 'Фэнтези', 'D', 'Sciefie(Low connectivity)'] 
+ ['None', 'Очерк, фельетон, роман фельетон', 'Sciefie(Low connectivity)', 'D']
+Answer
+Очерк, фельетон, роман фельетон OR LESS POSIBLE Очерк, фельетон, роман фельетон
+#####################################################
+Not normalized grade vector
+[(0, 2.5), (1, 7.5), (2, 7.5), (3, 0.0)]
+Normalized grade vector
+[(1, 7.5), (2, 7.5), (0, 2.5), (3, 0.0)]
+second point result  7.5 second vector result публицистический стиль
+We prefered point result
+Distance index's:  1 3  Point index's:  2 1
+Points
+2.5 7.5 7.5 0.0
+Normalized posibility vector
+[['художественный стиль', 0.10220643446681035], ['публицистический стиль', 0.12209298887796383], ['научный стиль', 0.14534155243702368], ['деловой стиль', 0.27770301768726885]]
+Final style matrix
+['D', 'None', 'Bussiness project(Low connectivity)', 'None'] 
+ ['None', 'D', 'Фэнтези', 'Очерк, фельетон, роман фельетон'] 
+ ['Bussiness project(Low connectivity)', 'Фэнтези', 'D', 'Sciefie(Low connectivity)'] 
+ ['None', 'Очерк, фельетон, роман фельетон', 'Sciefie(Low connectivity)', 'D']
+Answer
+Фэнтези OR LESS POSIBLE Очерк, фельетон, роман фельетон
+#####################################################
+Not normalized grade vector
+[(0, 2.5), (1, 7.5), (2, 0.0), (3, 2.5)]
+Normalized grade vector
+[(1, 7.5), (0, 2.5), (3, 2.5), (2, 0.0)]
+second point result  2.5 second vector result публицистический стиль
+We prefered point result
+Distance index's:  1 3  Point index's:  0 1
+Points
+2.5 7.5 0.0 2.5
+Normalized posibility vector
+[['художественный стиль', 0.035368700658719034], ['публицистический стиль', 0.09934049093881167], ['научный стиль', 0.13211393230723173], ['деловой стиль', 0.24261732255332513]]
+Final style matrix
+['D', 'None', 'Bussiness project(Low connectivity)', 'None'] 
+ ['None', 'D', 'Фэнтези', 'Очерк, фельетон, роман фельетон'] 
+ ['Bussiness project(Low connectivity)', 'Фэнтези', 'D', 'Sciefie(Low connectivity)'] 
+ ['None', 'Очерк, фельетон, роман фельетон', 'Sciefie(Low connectivity)', 'D']
+Answer
+None OR LESS POSIBLE Очерк, фельетон, роман фельетон
+#####################################################
+Not normalized grade vector
+[(0, 2.5), (1, 7.5), (2, 7.5), (3, 0.0)]
+Normalized grade vector
+[(1, 7.5), (2, 7.5), (0, 2.5), (3, 0.0)]
+second point result  7.5 second vector result публицистический стиль
+We prefered point result
+Distance index's:  2 3  Point index's:  2 1
+Points
+2.5 7.5 7.5 0.0
+Normalized posibility vector
+[['научный стиль', 0.02912074524310404], ['публицистический стиль', 0.036540608303470605], ['художественный стиль', 0.10126523806118565], ['деловой стиль', 0.15613027448102856]]
+Final style matrix
+['D', 'None', 'Bussiness project(Low connectivity)', 'None'] 
+ ['None', 'D', 'Фэнтези', 'Очерк, фельетон, роман фельетон'] 
+ ['Bussiness project(Low connectivity)', 'Фэнтези', 'D', 'Sciefie(Low connectivity)'] 
+ ['None', 'Очерк, фельетон, роман фельетон', 'Sciefie(Low connectivity)', 'D']
+Answer
+Фэнтези OR LESS POSIBLE Sciefie(Low connectivity)
+#####################################################
+Not normalized grade vector
+[(0, 2.5), (1, 7.5), (2, 7.5), (3, 2.5)]
+Normalized grade vector
+[(1, 7.5), (2, 7.5), (0, 2.5), (3, 2.5)]
+second point result  7.5 second vector result художественный стиль
+We have 2 results
+Distance index's:  3 1  Point index's:  2 1
+Points
+2.5 7.5 7.5 2.5
+Normalized posibility vector
+[['публицистический стиль', 0.07793151536699795], ['художественный стиль', 0.0845199998193865], ['научный стиль', 0.09790366140442046], ['деловой стиль', 0.23138467562849618]]
+Final style matrix
+['D', 'None', 'Bussiness project(Low connectivity)', 'None'] 
+ ['None', 'D', 'Фэнтези', 'Очерк, фельетон, роман фельетон'] 
+ ['Bussiness project(Low connectivity)', 'Фэнтези', 'D', 'Sciefie(Low connectivity)'] 
+ ['None', 'Очерк, фельетон, роман фельетон', 'Sciefie(Low connectivity)', 'D']
+Answer
+Очерк, фельетон, роман фельетон Фэнтези
+#####################################################
+Not normalized grade vector
+[(0, 2.5), (1, 7.5), (2, 7.5), (3, 0.0)]
+Normalized grade vector
+[(1, 7.5), (2, 7.5), (0, 2.5), (3, 0.0)]
+second point result  7.5 second vector result публицистический стиль
+We prefered point result
+Distance index's:  1 3  Point index's:  2 1
+Points
+2.5 7.5 7.5 0.0
+Normalized posibility vector
+[['художественный стиль', 0.09235657563341819], ['публицистический стиль', 0.09575282782617964], ['научный стиль', 0.11585290494447606], ['деловой стиль', 0.24865168124572581]]
+Final style matrix
+['D', 'None', 'Bussiness project(Low connectivity)', 'None'] 
+ ['None', 'D', 'Фэнтези', 'Очерк, фельетон, роман фельетон'] 
+ ['Bussiness project(Low connectivity)', 'Фэнтези', 'D', 'Sciefie(Low connectivity)'] 
+ ['None', 'Очерк, фельетон, роман фельетон', 'Sciefie(Low connectivity)', 'D']
+Answer
+Фэнтези OR LESS POSIBLE Очерк, фельетон, роман фельетон
+#####################################################
+Not normalized grade vector
+[(0, 2.5), (1, 7.5), (2, 7.5), (3, 0.0)]
+Normalized grade vector
+[(1, 7.5), (2, 7.5), (0, 2.5), (3, 0.0)]
+second point result  7.5 second vector result публицистический стиль
+We prefered point result
+Distance index's:  2 3  Point index's:  2 1
+Points
+2.5 7.5 7.5 0.0
+Normalized posibility vector
+[['научный стиль', 0.011677205535659825], ['публицистический стиль', 0.040554333929600624], ['художественный стиль', 0.11472551690383852], ['деловой стиль', 0.12640026679577485]]
+Final style matrix
+['D', 'None', 'Bussiness project(Low connectivity)', 'None'] 
+ ['None', 'D', 'Фэнтези', 'Очерк, фельетон, роман фельетон'] 
+ ['Bussiness project(Low connectivity)', 'Фэнтези', 'D', 'Sciefie(Low connectivity)'] 
+ ['None', 'Очерк, фельетон, роман фельетон', 'Sciefie(Low connectivity)', 'D']
+Answer
+Фэнтези OR LESS POSIBLE Sciefie(Low connectivity)
+#####################################################
+Not normalized grade vector
+[(0, 2.5), (1, 10.0), (2, 7.5), (3, 0.0)]
+Normalized grade vector
+[(1, 10.0), (2, 7.5), (0, 2.5), (3, 0.0)]
+second point result  7.5 second vector result публицистический стиль
+We prefered point result
+Distance index's:  1 3  Point index's:  2 1
+Points
+2.5 10.0 7.5 0.0
+Normalized posibility vector
+[['художественный стиль', 0.07423196599025178], ['публицистический стиль', 0.08023005141654233], ['научный стиль', 0.10317994814913727], ['деловой стиль', 0.23557309918649294]]
+Final style matrix
+['D', 'None', 'Bussiness project(Low connectivity)', 'None'] 
+ ['None', 'D', 'Фэнтези', 'Очерк, фельетон, роман фельетон'] 
+ ['Bussiness project(Low connectivity)', 'Фэнтези', 'D', 'Sciefie(Low connectivity)'] 
+ ['None', 'Очерк, фельетон, роман фельетон', 'Sciefie(Low connectivity)', 'D']
+Answer
+Фэнтези OR LESS POSIBLE Очерк, фельетон, роман фельетон
+#####################################################
+Not normalized grade vector
+[(0, 2.5), (1, 10.0), (2, 5.0), (3, 0.0)]
+Normalized grade vector
+[(1, 10.0), (2, 5.0), (0, 2.5), (3, 0.0)]
+second point result  5.0 second vector result публицистический стиль
+We prefered point result
+Distance index's:  1 3  Point index's:  2 1
+Points
+2.5 10.0 5.0 0.0
+Normalized posibility vector
+[['художественный стиль', 0.08340157775129459], ['публицистический стиль', 0.09746616641180761], ['научный стиль', 0.12050997027311516], ['деловой стиль', 0.25296183677678663]]
+Final style matrix
+['D', 'None', 'Bussiness project(Low connectivity)', 'None'] 
+ ['None', 'D', 'Фэнтези', 'Очерк, фельетон, роман фельетон'] 
+ ['Bussiness project(Low connectivity)', 'Фэнтези', 'D', 'Sciefie(Low connectivity)'] 
+ ['None', 'Очерк, фельетон, роман фельетон', 'Sciefie(Low connectivity)', 'D']
+Answer
+Фэнтези OR LESS POSIBLE Очерк, фельетон, роман фельетон
+#####################################################
+Not normalized grade vector
+[(0, 2.5), (1, 7.5), (2, 7.5), (3, 0.0)]
+Normalized grade vector
+[(1, 7.5), (2, 7.5), (0, 2.5), (3, 0.0)]
+second point result  7.5 second vector result научный стиль
+We prefered point result
+Distance index's:  3 2  Point index's:  2 1
+Points
+2.5 7.5 7.5 0.0
+Normalized posibility vector
+[['публицистический стиль', 0.05557340449067005], ['научный стиль', 0.06893546284006356], ['художественный стиль', 0.09213796637296529], ['деловой стиль', 0.1974722343163392]]
+Final style matrix
+['D', 'None', 'Bussiness project(Low connectivity)', 'None'] 
+ ['None', 'D', 'Фэнтези', 'Очерк, фельетон, роман фельетон'] 
+ ['Bussiness project(Low connectivity)', 'Фэнтези', 'D', 'Sciefie(Low connectivity)'] 
+ ['None', 'Очерк, фельетон, роман фельетон', 'Sciefie(Low connectivity)', 'D']
+Answer
+Фэнтези OR LESS POSIBLE Sciefie(Low connectivity)
+#####################################################
+Not normalized grade vector
+[(0, 2.5), (1, 10.0), (2, 0.0), (3, 2.5)]
+Normalized grade vector
+[(1, 10.0), (0, 2.5), (3, 2.5), (2, 0.0)]
+second point result  2.5 second vector result публицистический стиль
+We prefered point result
+Distance index's:  1 3  Point index's:  0 1
+Points
+2.5 10.0 0.0 2.5
+Normalized posibility vector
+[['художественный стиль', 0.06153746608440478], ['публицистический стиль', 0.09801971238344183], ['научный стиль', 0.12588796943872443], ['деловой стиль', 0.2556811293742288]]
+Final style matrix
+['D', 'None', 'Bussiness project(Low connectivity)', 'None'] 
+ ['None', 'D', 'Фэнтези', 'Очерк, фельетон, роман фельетон'] 
+ ['Bussiness project(Low connectivity)', 'Фэнтези', 'D', 'Sciefie(Low connectivity)'] 
+ ['None', 'Очерк, фельетон, роман фельетон', 'Sciefie(Low connectivity)', 'D']
+Answer
+None OR LESS POSIBLE Очерк, фельетон, роман фельетон
+#####################################################
+Not normalized grade vector
+[(0, 2.5), (1, 7.5), (2, 7.5), (3, 0.0)]
+Normalized grade vector
+[(1, 7.5), (2, 7.5), (0, 2.5), (3, 0.0)]
+second point result  7.5 second vector result публицистический стиль
+We prefered point result
+Distance index's:  2 3  Point index's:  2 1
+Points
+2.5 7.5 7.5 0.0
+Normalized posibility vector
+[['научный стиль', 0.03533225473196959], ['публицистический стиль', 0.0638521289418039], ['деловой стиль', 0.1039534268499364], ['художественный стиль', 0.1354905715935229]]
+Final style matrix
+['D', 'None', 'Bussiness project(Low connectivity)', 'None'] 
+ ['None', 'D', 'Фэнтези', 'Очерк, фельетон, роман фельетон'] 
+ ['Bussiness project(Low connectivity)', 'Фэнтези', 'D', 'Sciefie(Low connectivity)'] 
+ ['None', 'Очерк, фельетон, роман фельетон', 'Sciefie(Low connectivity)', 'D']
+Answer
+Фэнтези OR LESS POSIBLE Sciefie(Low connectivity)
+#####################################################
+Not normalized grade vector
+[(0, 2.5), (1, 7.5), (2, 7.5), (3, 0.0)]
+Normalized grade vector
+[(1, 7.5), (2, 7.5), (0, 2.5), (3, 0.0)]
+second point result  7.5 second vector result публицистический стиль
+We prefered point result
+Distance index's:  1 3  Point index's:  2 1
+Points
+2.5 7.5 7.5 0.0
+Normalized posibility vector
+[['художественный стиль', 0.07799461183004547], ['публицистический стиль', 0.08804895258322126], ['научный стиль', 0.11106147436140765], ['деловой стиль', 0.2444996069389884]]
+Final style matrix
+['D', 'None', 'Bussiness project(Low connectivity)', 'None'] 
+ ['None', 'D', 'Фэнтези', 'Очерк, фельетон, роман фельетон'] 
+ ['Bussiness project(Low connectivity)', 'Фэнтези', 'D', 'Sciefie(Low connectivity)'] 
+ ['None', 'Очерк, фельетон, роман фельетон', 'Sciefie(Low connectivity)', 'D']
+Answer
+Фэнтези OR LESS POSIBLE Очерк, фельетон, роман фельетон
+#####################################################
+Not normalized grade vector
+[(0, 5.0), (1, 7.5), (2, 0.0), (3, 5.0)]
+Normalized grade vector
+[(1, 7.5), (0, 5.0), (3, 5.0), (2, 0.0)]
+second point result  5.0 second vector result публицистический стиль
+We prefered point result
+Distance index's:  1 3  Point index's:  0 1
+Points
+5.0 7.5 0.0 5.0
+Normalized posibility vector
+[['художественный стиль', 0.07871428865666044], ['публицистический стиль', 0.09110681304742071], ['научный стиль', 0.11443492834184311], ['деловой стиль', 0.24759461461708954]]
+Final style matrix
+['D', 'None', 'Bussiness project(Low connectivity)', 'None'] 
+ ['None', 'D', 'Фэнтези', 'Очерк, фельетон, роман фельетон'] 
+ ['Bussiness project(Low connectivity)', 'Фэнтези', 'D', 'Sciefie(Low connectivity)'] 
+ ['None', 'Очерк, фельетон, роман фельетон', 'Sciefie(Low connectivity)', 'D']
+Answer
+None OR LESS POSIBLE Очерк, фельетон, роман фельетон
+#####################################################
+Not normalized grade vector
+[(0, 2.5), (1, 7.5), (2, 0.0), (3, 5.0)]
+Normalized grade vector
+[(1, 7.5), (3, 5.0), (0, 2.5), (2, 0.0)]
+second point result  5.0 second vector result научный стиль
+We prefered point result
+Distance index's:  3 2  Point index's:  3 1
+Points
+2.5 7.5 0.0 5.0
+Normalized posibility vector
+[['публицистический стиль', 0.05657484641949666], ['научный стиль', 0.05975104983670355], ['художественный стиль', 0.10111451989530944], ['деловой стиль', 0.1798348151828012]]
+Final style matrix
+['D', 'None', 'Bussiness project(Low connectivity)', 'None'] 
+ ['None', 'D', 'Фэнтези', 'Очерк, фельетон, роман фельетон'] 
+ ['Bussiness project(Low connectivity)', 'Фэнтези', 'D', 'Sciefie(Low connectivity)'] 
+ ['None', 'Очерк, фельетон, роман фельетон', 'Sciefie(Low connectivity)', 'D']
+Answer
+Очерк, фельетон, роман фельетон OR LESS POSIBLE Sciefie(Low connectivity)
+#####################################################
+Not normalized grade vector
+[(0, 2.5), (1, 7.5), (2, 7.5), (3, 0.0)]
+Normalized grade vector
+[(1, 7.5), (2, 7.5), (0, 2.5), (3, 0.0)]
+second point result  7.5 second vector result публицистический стиль
+We prefered point result
+Distance index's:  2 3  Point index's:  2 1
+Points
+2.5 7.5 7.5 0.0
+Normalized posibility vector
+[['научный стиль', 0.013369000591861758], ['публицистический стиль', 0.03883061297245667], ['художественный стиль', 0.11004059300803938], ['деловой стиль', 0.13417026781797234]]
+Final style matrix
+['D', 'None', 'Bussiness project(Low connectivity)', 'None'] 
+ ['None', 'D', 'Фэнтези', 'Очерк, фельетон, роман фельетон'] 
+ ['Bussiness project(Low connectivity)', 'Фэнтези', 'D', 'Sciefie(Low connectivity)'] 
+ ['None', 'Очерк, фельетон, роман фельетон', 'Sciefie(Low connectivity)', 'D']
+Answer
+Фэнтези OR LESS POSIBLE Sciefie(Low connectivity)
+#####################################################
+Not normalized grade vector
+[(0, 2.5), (1, 7.5), (2, 7.5), (3, 0.0)]
+Normalized grade vector
+[(1, 7.5), (2, 7.5), (0, 2.5), (3, 0.0)]
+second point result  7.5 second vector result публицистический стиль
+We prefered point result
+Distance index's:  2 3  Point index's:  2 1
+Points
+2.5 7.5 7.5 0.0
+Normalized posibility vector
+[['научный стиль', 0.035106319675768806], ['публицистический стиль', 0.04123465968606012], ['художественный стиль', 0.10507230913336034], ['деловой стиль', 0.16437776939901294]]
+Final style matrix
+['D', 'None', 'Bussiness project(Low connectivity)', 'None'] 
+ ['None', 'D', 'Фэнтези', 'Очерк, фельетон, роман фельетон'] 
+ ['Bussiness project(Low connectivity)', 'Фэнтези', 'D', 'Sciefie(Low connectivity)'] 
+ ['None', 'Очерк, фельетон, роман фельетон', 'Sciefie(Low connectivity)', 'D']
+Answer
+Фэнтези OR LESS POSIBLE Sciefie(Low connectivity)
+#####################################################
+Not normalized grade vector
+[(0, 2.5), (1, 7.5), (2, 7.5), (3, 0.0)]
+Normalized grade vector
+[(1, 7.5), (2, 7.5), (0, 2.5), (3, 0.0)]
+second point result  7.5 second vector result публицистический стиль
+We prefered point result
+Distance index's:  2 3  Point index's:  2 1
+Points
+2.5 7.5 7.5 0.0
+Normalized posibility vector
+[['научный стиль', 0.032863848528957636], ['публицистический стиль', 0.05205876921519114], ['деловой стиль', 0.1111843777015749], ['художественный стиль', 0.11891392160309419]]
+Final style matrix
+['D', 'None', 'Bussiness project(Low connectivity)', 'None'] 
+ ['None', 'D', 'Фэнтези', 'Очерк, фельетон, роман фельетон'] 
+ ['Bussiness project(Low connectivity)', 'Фэнтези', 'D', 'Sciefie(Low connectivity)'] 
+ ['None', 'Очерк, фельетон, роман фельетон', 'Sciefie(Low connectivity)', 'D']
+Answer
+Фэнтези OR LESS POSIBLE Sciefie(Low connectivity)
+#####################################################
+Not normalized grade vector
+[(0, 2.5), (1, 7.5), (2, 0.0), (3, 0.0)]
+Normalized grade vector
+[(1, 7.5), (0, 2.5), (2, 0.0), (3, 0.0)]
+second point result  2.5 second vector result научный стиль
+We prefered point result
+Distance index's:  0 2  Point index's:  0 1
+Points
+2.5 7.5 0.0 0.0
+Normalized posibility vector
+[['деловой стиль', 0.0561859310320959], ['научный стиль', 0.10102835851704464], ['публицистический стиль', 0.12906515124386944], ['художественный стиль', 0.19751564310076578]]
+Final style matrix
+['D', 'None', 'Bussiness project(Low connectivity)', 'None'] 
+ ['None', 'D', 'Фэнтези', 'Очерк, фельетон, роман фельетон'] 
+ ['Bussiness project(Low connectivity)', 'Фэнтези', 'D', 'Sciefie(Low connectivity)'] 
+ ['None', 'Очерк, фельетон, роман фельетон', 'Sciefie(Low connectivity)', 'D']
+Answer
+None OR LESS POSIBLE Bussiness project(Low connectivity)
+#####################################################
+Not normalized grade vector
+[(0, 2.5), (1, 7.5), (2, 7.5), (3, 0.0)]
+Normalized grade vector
+[(1, 7.5), (2, 7.5), (0, 2.5), (3, 0.0)]
+second point result  7.5 second vector result публицистический стиль
+We prefered point result
+Distance index's:  2 3  Point index's:  2 1
+Points
+2.5 7.5 7.5 0.0
+Normalized posibility vector
+[['научный стиль', 0.047854873943314946], ['публицистический стиль', 0.06263676157980402], ['художественный стиль', 0.12472533126116891], ['деловой стиль', 0.16596951181816075]]
+Final style matrix
+['D', 'None', 'Bussiness project(Low connectivity)', 'None'] 
+ ['None', 'D', 'Фэнтези', 'Очерк, фельетон, роман фельетон'] 
+ ['Bussiness project(Low connectivity)', 'Фэнтези', 'D', 'Sciefie(Low connectivity)'] 
+ ['None', 'Очерк, фельетон, роман фельетон', 'Sciefie(Low connectivity)', 'D']
+Answer
+Фэнтези OR LESS POSIBLE Sciefie(Low connectivity)
+#####################################################
+Not normalized grade vector
+[(0, 2.5), (1, 7.5), (2, 7.5), (3, 0.0)]
+Normalized grade vector
+[(1, 7.5), (2, 7.5), (0, 2.5), (3, 0.0)]
+second point result  7.5 second vector result публицистический стиль
+We prefered point result
+Distance index's:  2 3  Point index's:  2 1
+Points
+2.5 7.5 7.5 0.0
+Normalized posibility vector
+[['научный стиль', 0.029476230963329346], ['публицистический стиль', 0.04950577276421513], ['художественный стиль', 0.11775453784165345], ['деловой стиль', 0.14796944157544165]]
+Final style matrix
+['D', 'None', 'Bussiness project(Low connectivity)', 'None'] 
+ ['None', 'D', 'Фэнтези', 'Очерк, фельетон, роман фельетон'] 
+ ['Bussiness project(Low connectivity)', 'Фэнтези', 'D', 'Sciefie(Low connectivity)'] 
+ ['None', 'Очерк, фельетон, роман фельетон', 'Sciefie(Low connectivity)', 'D']
+Answer
+Фэнтези OR LESS POSIBLE Sciefie(Low connectivity)
+#####################################################
+Not normalized grade vector
+[(0, 2.5), (1, 7.5), (2, 7.5), (3, 0.0)]
+Normalized grade vector
+[(1, 7.5), (2, 7.5), (0, 2.5), (3, 0.0)]
+second point result  7.5 second vector result публицистический стиль
+We prefered point result
+Distance index's:  2 3  Point index's:  2 1
+Points
+2.5 7.5 7.5 0.0
+Normalized posibility vector
+[['научный стиль', 0.04302235106676334], ['публицистический стиль', 0.06618640281060652], ['деловой стиль', 0.09787318885472143], ['художественный стиль', 0.13433724175967204]]
+Final style matrix
+['D', 'None', 'Bussiness project(Low connectivity)', 'None'] 
+ ['None', 'D', 'Фэнтези', 'Очерк, фельетон, роман фельетон'] 
+ ['Bussiness project(Low connectivity)', 'Фэнтези', 'D', 'Sciefie(Low connectivity)'] 
+ ['None', 'Очерк, фельетон, роман фельетон', 'Sciefie(Low connectivity)', 'D']
+Answer
+Фэнтези OR LESS POSIBLE Sciefie(Low connectivity)
+#####################################################
+Not normalized grade vector
+[(0, 2.5), (1, 7.5), (2, 7.5), (3, 0.0)]
+Normalized grade vector
+[(1, 7.5), (2, 7.5), (0, 2.5), (3, 0.0)]
+second point result  7.5 second vector result публицистический стиль
+We prefered point result
+Distance index's:  1 3  Point index's:  2 1
+Points
+2.5 7.5 7.5 0.0
+Normalized posibility vector
+[['художественный стиль', 0.09904590471391381], ['публицистический стиль', 0.1131820233757956], ['научный стиль', 0.13472691172219872], ['деловой стиль', 0.26724450463022004]]
+Final style matrix
+['D', 'None', 'Bussiness project(Low connectivity)', 'None'] 
+ ['None', 'D', 'Фэнтези', 'Очерк, фельетон, роман фельетон'] 
+ ['Bussiness project(Low connectivity)', 'Фэнтези', 'D', 'Sciefie(Low connectivity)'] 
+ ['None', 'Очерк, фельетон, роман фельетон', 'Sciefie(Low connectivity)', 'D']
+Answer
+Фэнтези OR LESS POSIBLE Очерк, фельетон, роман фельетон
+#####################################################
+Not normalized grade vector
+[(0, 2.5), (1, 7.5), (2, 0.0), (3, 5.0)]
+Normalized grade vector
+[(1, 7.5), (3, 5.0), (0, 2.5), (2, 0.0)]
+second point result  5.0 second vector result научный стиль
+We prefered point result
+Distance index's:  0 2  Point index's:  3 1
+Points
+2.5 7.5 0.0 5.0
+Normalized posibility vector
+[['деловой стиль', 0.07180268276548296], ['научный стиль', 0.07921457094035612], ['публицистический стиль', 0.0966949031061829], ['художественный стиль', 0.1556189651618056]]
+Final style matrix
+['D', 'None', 'Bussiness project(Low connectivity)', 'None'] 
+ ['None', 'D', 'Фэнтези', 'Очерк, фельетон, роман фельетон'] 
+ ['Bussiness project(Low connectivity)', 'Фэнтези', 'D', 'Sciefie(Low connectivity)'] 
+ ['None', 'Очерк, фельетон, роман фельетон', 'Sciefie(Low connectivity)', 'D']
+Answer
+Очерк, фельетон, роман фельетон OR LESS POSIBLE Bussiness project(Low connectivity)
+#####################################################
+Not normalized grade vector
+[(0, 7.5), (1, 10.0), (2, 0.0), (3, 2.5)]
+Normalized grade vector
+[(1, 10.0), (0, 7.5), (3, 2.5), (2, 0.0)]
+second point result  7.5 second vector result публицистический стиль
+We prefered point result
+Distance index's:  1 3  Point index's:  0 1
+Points
+7.5 10.0 0.0 2.5
+Normalized posibility vector
+[['художественный стиль', 0.1949914521777681], ['публицистический стиль', 0.239847364755162], ['научный стиль', 0.26365848247275936], ['деловой стиль', 0.2994482631676082]]
+Final style matrix
+['D', 'None', 'Bussiness project(Low connectivity)', 'None'] 
+ ['None', 'D', 'Фэнтези', 'Очерк, фельетон, роман фельетон'] 
+ ['Bussiness project(Low connectivity)', 'Фэнтези', 'D', 'Sciefie(Low connectivity)'] 
+ ['None', 'Очерк, фельетон, роман фельетон', 'Sciefie(Low connectivity)', 'D']
+Answer
+None OR LESS POSIBLE Очерк, фельетон, роман фельетон
+#####################################################
+Not normalized grade vector
+[(0, 2.5), (1, 7.5), (2, 0.0), (3, 7.5)]
+Normalized grade vector
+[(1, 7.5), (3, 7.5), (0, 2.5), (2, 0.0)]
+second point result  7.5 second vector result публицистический стиль
+We prefered point result
+Distance index's:  2 3  Point index's:  3 1
+Points
+2.5 7.5 0.0 7.5
+Normalized posibility vector
+[['научный стиль', 0.03176071299733145], ['публицистический стиль', 0.04203468473949277], ['художественный стиль', 0.10623184526557548], ['деловой стиль', 0.1550528456397895]]
+Final style matrix
+['D', 'None', 'Bussiness project(Low connectivity)', 'None'] 
+ ['None', 'D', 'Фэнтези', 'Очерк, фельетон, роман фельетон'] 
+ ['Bussiness project(Low connectivity)', 'Фэнтези', 'D', 'Sciefie(Low connectivity)'] 
+ ['None', 'Очерк, фельетон, роман фельетон', 'Sciefie(Low connectivity)', 'D']
+Answer
+Очерк, фельетон, роман фельетон OR LESS POSIBLE Sciefie(Low connectivity)
+#####################################################
+Not normalized grade vector
+[(0, 2.5), (1, 7.5), (2, 0.0), (3, 2.5)]
+Normalized grade vector
+[(1, 7.5), (0, 2.5), (3, 2.5), (2, 0.0)]
+second point result  2.5 second vector result художественный стиль
+We have 2 results
+Distance index's:  3 1  Point index's:  0 1
+Points
+2.5 7.5 0.0 2.5
+Normalized posibility vector
+[['публицистический стиль', 0.06401407355961355], ['художественный стиль', 0.07302363580548203], ['научный стиль', 0.0845501725050166], ['деловой стиль', 0.2138139781252711]]
+Final style matrix
+['D', 'None', 'Bussiness project(Low connectivity)', 'None'] 
+ ['None', 'D', 'Фэнтези', 'Очерк, фельетон, роман фельетон'] 
+ ['Bussiness project(Low connectivity)', 'Фэнтези', 'D', 'Sciefie(Low connectivity)'] 
+ ['None', 'Очерк, фельетон, роман фельетон', 'Sciefie(Low connectivity)', 'D']
+Answer
+Очерк, фельетон, роман фельетон None
+#####################################################
+Not normalized grade vector
+[(0, 2.5), (1, 7.5), (2, 0.0), (3, 7.5)]
+Normalized grade vector
+[(1, 7.5), (3, 7.5), (0, 2.5), (2, 0.0)]
+second point result  7.5 second vector result научный стиль
+We prefered point result
+Distance index's:  3 2  Point index's:  3 1
+Points
+2.5 7.5 0.0 7.5
+Normalized posibility vector
+[['публицистический стиль', 0.044630984529430366], ['научный стиль', 0.04488984852119649], ['художественный стиль', 0.10162169798624855], ['деловой стиль', 0.17123034249813315]]
+Final style matrix
+['D', 'None', 'Bussiness project(Low connectivity)', 'None'] 
+ ['None', 'D', 'Фэнтези', 'Очерк, фельетон, роман фельетон'] 
+ ['Bussiness project(Low connectivity)', 'Фэнтези', 'D', 'Sciefie(Low connectivity)'] 
+ ['None', 'Очерк, фельетон, роман фельетон', 'Sciefie(Low connectivity)', 'D']
+Answer
+Очерк, фельетон, роман фельетон OR LESS POSIBLE Sciefie(Low connectivity)
+#####################################################
+Not normalized grade vector
+[(0, 2.5), (1, 7.5), (2, 7.5), (3, 2.5)]
+Normalized grade vector
+[(1, 7.5), (2, 7.5), (0, 2.5), (3, 2.5)]
+second point result  7.5 second vector result публицистический стиль
+We prefered point result
+Distance index's:  1 3  Point index's:  2 1
+Points
+2.5 7.5 7.5 2.5
+Normalized posibility vector
+[['художественный стиль', 0.06904589768024669], ['публицистический стиль', 0.07010573834922845], ['научный стиль', 0.09596170547272201], ['деловой стиль', 0.22470660613762042]]
+Final style matrix
+['D', 'None', 'Bussiness project(Low connectivity)', 'None'] 
+ ['None', 'D', 'Фэнтези', 'Очерк, фельетон, роман фельетон'] 
+ ['Bussiness project(Low connectivity)', 'Фэнтези', 'D', 'Sciefie(Low connectivity)'] 
+ ['None', 'Очерк, фельетон, роман фельетон', 'Sciefie(Low connectivity)', 'D']
+Answer
+Фэнтези OR LESS POSIBLE Очерк, фельетон, роман фельетон
+#####################################################
+#####################################################
+####################END OF CORPUS####################
+#####################################################
+Not normalized grade vector
+[(0, 2.5), (1, 7.5), (2, 7.5), (3, 0.0)]
+Normalized grade vector
+[(1, 7.5), (2, 7.5), (0, 2.5), (3, 0.0)]
+second point result  7.5 second vector result научный стиль
+We prefered point result
+Distance index's:  3 2  Point index's:  2 1
+Points
+2.5 7.5 7.5 0.0
+Normalized posibility vector
+[['публицистический стиль', 0.037905619305816415], ['научный стиль', 0.054286834614551], ['художественный стиль', 0.07759965821555545], ['деловой стиль', 0.18767683925012446]]
+Final style matrix
+['D', 'None', 'Bussiness project(Low connectivity)', 'None'] 
+ ['None', 'D', 'Фэнтези', 'Очерк, фельетон, роман фельетон'] 
+ ['Bussiness project(Low connectivity)', 'Фэнтези', 'D', 'Sciefie(Low connectivity)'] 
+ ['None', 'Очерк, фельетон, роман фельетон', 'Sciefie(Low connectivity)', 'D']
+Answer
+Фэнтези OR LESS POSIBLE Sciefie(Low connectivity)
+#####################################################
+Not normalized grade vector
+[(0, 2.5), (1, 7.5), (2, 7.5), (3, 2.5)]
+Normalized grade vector
+[(1, 7.5), (2, 7.5), (0, 2.5), (3, 2.5)]
+second point result  7.5 second vector result публицистический стиль
+We prefered point result
+Distance index's:  2 3  Point index's:  2 1
+Points
+2.5 7.5 7.5 2.5
+Normalized posibility vector
+[['научный стиль', 0.027349183019166768], ['публицистический стиль', 0.048796310353766525], ['художественный стиль', 0.11632148312644358], ['деловой стиль', 0.12999179783331227]]
+Final style matrix
+['D', 'None', 'Bussiness project(Low connectivity)', 'None'] 
+ ['None', 'D', 'Фэнтези', 'Очерк, фельетон, роман фельетон'] 
+ ['Bussiness project(Low connectivity)', 'Фэнтези', 'D', 'Sciefie(Low connectivity)'] 
+ ['None', 'Очерк, фельетон, роман фельетон', 'Sciefie(Low connectivity)', 'D']
+Answer
+Фэнтези OR LESS POSIBLE Sciefie(Low connectivity)
+#####################################################
+Not normalized grade vector
+[(0, 2.5), (1, 7.5), (2, 7.5), (3, 0.0)]
+Normalized grade vector
+[(1, 7.5), (2, 7.5), (0, 2.5), (3, 0.0)]
+second point result  7.5 second vector result научный стиль
+We prefered point result
+Distance index's:  3 2  Point index's:  2 1
+Points
+2.5 7.5 7.5 0.0
+Normalized posibility vector
+[['публицистический стиль', 0.03204168457217657], ['научный стиль', 0.045750632284863965], ['художественный стиль', 0.08019274086149536], ['деловой стиль', 0.17850577587284408]]
+Final style matrix
+['D', 'None', 'Bussiness project(Low connectivity)', 'None'] 
+ ['None', 'D', 'Фэнтези', 'Очерк, фельетон, роман фельетон'] 
+ ['Bussiness project(Low connectivity)', 'Фэнтези', 'D', 'Sciefie(Low connectivity)'] 
+ ['None', 'Очерк, фельетон, роман фельетон', 'Sciefie(Low connectivity)', 'D']
+Answer
+Фэнтези OR LESS POSIBLE Sciefie(Low connectivity)
+#####################################################
+Not normalized grade vector
+[(0, 2.5), (1, 7.5), (2, 7.5), (3, 0.0)]
+Normalized grade vector
+[(1, 7.5), (2, 7.5), (0, 2.5), (3, 0.0)]
+second point result  7.5 second vector result научный стиль
+We prefered point result
+Distance index's:  3 2  Point index's:  2 1
+Points
+2.5 7.5 7.5 0.0
+Normalized posibility vector
+[['публицистический стиль', 0.04944779946631482], ['научный стиль', 0.06281489688604934], ['художественный стиль', 0.08464602972348718], ['деловой стиль', 0.19511277385054093]]
+Final style matrix
+['D', 'None', 'Bussiness project(Low connectivity)', 'None'] 
+ ['None', 'D', 'Фэнтези', 'Очерк, фельетон, роман фельетон'] 
+ ['Bussiness project(Low connectivity)', 'Фэнтези', 'D', 'Sciefie(Low connectivity)'] 
+ ['None', 'Очерк, фельетон, роман фельетон', 'Sciefie(Low connectivity)', 'D']
+Answer
+Фэнтези OR LESS POSIBLE Sciefie(Low connectivity)
+#####################################################
+Not normalized grade vector
+[(0, 2.5), (1, 7.5), (2, 5.0), (3, 0.0)]
+Normalized grade vector
+[(1, 7.5), (2, 5.0), (0, 2.5), (3, 0.0)]
+second point result  5.0 second vector result научный стиль
+We prefered point result
+Distance index's:  3 2  Point index's:  2 1
+Points
+2.5 7.5 5.0 0.0
+Normalized posibility vector
+[['публицистический стиль', 0.023114353089210664], ['научный стиль', 0.04845780197955535], ['художественный стиль', 0.06764831733873691], ['деловой стиль', 0.17733823502410936]]
+Final style matrix
+['D', 'None', 'Bussiness project(Low connectivity)', 'None'] 
+ ['None', 'D', 'Фэнтези', 'Очерк, фельетон, роман фельетон'] 
+ ['Bussiness project(Low connectivity)', 'Фэнтези', 'D', 'Sciefie(Low connectivity)'] 
+ ['None', 'Очерк, фельетон, роман фельетон', 'Sciefie(Low connectivity)', 'D']
+Answer
+Фэнтези OR LESS POSIBLE Sciefie(Low connectivity)
+#####################################################
+Not normalized grade vector
+[(0, 2.5), (1, 7.5), (2, 7.5), (3, 0.0)]
+Normalized grade vector
+[(1, 7.5), (2, 7.5), (0, 2.5), (3, 0.0)]
+second point result  7.5 second vector result художественный стиль
+We have 2 results
+Distance index's:  3 1  Point index's:  2 1
+Points
+2.5 7.5 7.5 0.0
+Normalized posibility vector
+[['публицистический стиль', 0.05501865577569417], ['художественный стиль', 0.07068052502337507], ['научный стиль', 0.07717976035332479], ['деловой стиль', 0.20916721247223177]]
+Final style matrix
+['D', 'None', 'Bussiness project(Low connectivity)', 'None'] 
+ ['None', 'D', 'Фэнтези', 'Очерк, фельетон, роман фельетон'] 
+ ['Bussiness project(Low connectivity)', 'Фэнтези', 'D', 'Sciefie(Low connectivity)'] 
+ ['None', 'Очерк, фельетон, роман фельетон', 'Sciefie(Low connectivity)', 'D']
+Answer
+Очерк, фельетон, роман фельетон Фэнтези
+#####################################################
+Not normalized grade vector
+[(0, 2.5), (1, 7.5), (2, 7.5), (3, 0.0)]
+Normalized grade vector
+[(1, 7.5), (2, 7.5), (0, 2.5), (3, 0.0)]
+second point result  7.5 second vector result научный стиль
+We prefered point result
+Distance index's:  3 2  Point index's:  2 1
+Points
+2.5 7.5 7.5 0.0
+Normalized posibility vector
+[['публицистический стиль', 0.04086878580571552], ['научный стиль', 0.05238492294736198], ['художественный стиль', 0.08472871665874232], ['деловой стиль', 0.18475937230348533]]
+Final style matrix
+['D', 'None', 'Bussiness project(Low connectivity)', 'None'] 
+ ['None', 'D', 'Фэнтези', 'Очерк, фельетон, роман фельетон'] 
+ ['Bussiness project(Low connectivity)', 'Фэнтези', 'D', 'Sciefie(Low connectivity)'] 
+ ['None', 'Очерк, фельетон, роман фельетон', 'Sciefie(Low connectivity)', 'D']
+Answer
+Фэнтези OR LESS POSIBLE Sciefie(Low connectivity)
+#####################################################
+Not normalized grade vector
+[(0, 2.5), (1, 7.5), (2, 7.5), (3, 0.0)]
+Normalized grade vector
+[(1, 7.5), (2, 7.5), (0, 2.5), (3, 0.0)]
+second point result  7.5 second vector result художественный стиль
+We have 2 results
+Distance index's:  3 1  Point index's:  2 1
+Points
+2.5 7.5 7.5 0.0
+Normalized posibility vector
+[['публицистический стиль', 0.05892923470805516], ['художественный стиль', 0.07530992732145832], ['научный стиль', 0.07883080781676438], ['деловой стиль', 0.2108557101939284]]
+Final style matrix
+['D', 'None', 'Bussiness project(Low connectivity)', 'None'] 
+ ['None', 'D', 'Фэнтези', 'Очерк, фельетон, роман фельетон'] 
+ ['Bussiness project(Low connectivity)', 'Фэнтези', 'D', 'Sciefie(Low connectivity)'] 
+ ['None', 'Очерк, фельетон, роман фельетон', 'Sciefie(Low connectivity)', 'D']
+Answer
+Очерк, фельетон, роман фельетон Фэнтези
+#####################################################
+Not normalized grade vector
+[(0, 2.5), (1, 7.5), (2, 7.5), (3, 0.0)]
+Normalized grade vector
+[(1, 7.5), (2, 7.5), (0, 2.5), (3, 0.0)]
+second point result  7.5 second vector result научный стиль
+We prefered point result
+Distance index's:  3 2  Point index's:  2 1
+Points
+2.5 7.5 7.5 0.0
+Normalized posibility vector
+[['публицистический стиль', 0.04851519819069268], ['научный стиль', 0.05802736613450245], ['художественный стиль', 0.08914687566122284], ['деловой стиль', 0.18958551792571135]]
+Final style matrix
+['D', 'None', 'Bussiness project(Low connectivity)', 'None'] 
+ ['None', 'D', 'Фэнтези', 'Очерк, фельетон, роман фельетон'] 
+ ['Bussiness project(Low connectivity)', 'Фэнтези', 'D', 'Sciefie(Low connectivity)'] 
+ ['None', 'Очерк, фельетон, роман фельетон', 'Sciefie(Low connectivity)', 'D']
+Answer
+Фэнтези OR LESS POSIBLE Sciefie(Low connectivity)
+#####################################################
+Not normalized grade vector
+[(0, 2.5), (1, 7.5), (2, 5.0), (3, 2.5)]
+Normalized grade vector
+[(1, 7.5), (2, 5.0), (0, 2.5), (3, 2.5)]
+second point result  5.0 second vector result научный стиль
+We prefered point result
+Distance index's:  3 2  Point index's:  2 1
+Points
+2.5 7.5 5.0 2.5
+Normalized posibility vector
+[['публицистический стиль', 0.05979738027204769], ['научный стиль', 0.07481966571745159], ['художественный стиль', 0.08563114288306657], ['деловой стиль', 0.20910981072545412]]
+Final style matrix
+['D', 'None', 'Bussiness project(Low connectivity)', 'None'] 
+ ['None', 'D', 'Фэнтези', 'Очерк, фельетон, роман фельетон'] 
+ ['Bussiness project(Low connectivity)', 'Фэнтези', 'D', 'Sciefie(Low connectivity)'] 
+ ['None', 'Очерк, фельетон, роман фельетон', 'Sciefie(Low connectivity)', 'D']
+Answer
+Фэнтези OR LESS POSIBLE Sciefie(Low connectivity)
+#####################################################
+Not normalized grade vector
+[(0, 2.5), (1, 7.5), (2, 7.5), (3, 0.0)]
+Normalized grade vector
+[(1, 7.5), (2, 7.5), (0, 2.5), (3, 0.0)]
+second point result  7.5 second vector result научный стиль
+We prefered point result
+Distance index's:  3 2  Point index's:  2 1
+Points
+2.5 7.5 7.5 0.0
+Normalized posibility vector
+[['публицистический стиль', 0.027262465251677047], ['научный стиль', 0.03279011659447644], ['художественный стиль', 0.0891878684257416], ['деловой стиль', 0.16596613048583464]]
+Final style matrix
+['D', 'None', 'Bussiness project(Low connectivity)', 'None'] 
+ ['None', 'D', 'Фэнтези', 'Очерк, фельетон, роман фельетон'] 
+ ['Bussiness project(Low connectivity)', 'Фэнтези', 'D', 'Sciefie(Low connectivity)'] 
+ ['None', 'Очерк, фельетон, роман фельетон', 'Sciefie(Low connectivity)', 'D']
+Answer
+Фэнтези OR LESS POSIBLE Sciefie(Low connectivity)
+#####################################################
+Not normalized grade vector
+[(0, 2.5), (1, 7.5), (2, 7.5), (3, 0.0)]
+Normalized grade vector
+[(1, 7.5), (2, 7.5), (0, 2.5), (3, 0.0)]
+second point result  7.5 second vector result научный стиль
+We prefered point result
+Distance index's:  3 2  Point index's:  2 1
+Points
+2.5 7.5 7.5 0.0
+Normalized posibility vector
+[['публицистический стиль', 0.036554616537525175], ['научный стиль', 0.055918494594294196], ['художественный стиль', 0.07276407288777842], ['деловой стиль', 0.18888791571361518]]
+Final style matrix
+['D', 'None', 'Bussiness project(Low connectivity)', 'None'] 
+ ['None', 'D', 'Фэнтези', 'Очерк, фельетон, роман фельетон'] 
+ ['Bussiness project(Low connectivity)', 'Фэнтези', 'D', 'Sciefie(Low connectivity)'] 
+ ['None', 'Очерк, фельетон, роман фельетон', 'Sciefie(Low connectivity)', 'D']
+Answer
+Фэнтези OR LESS POSIBLE Sciefie(Low connectivity)
+#####################################################
+Not normalized grade vector
+[(0, 2.5), (1, 7.5), (2, 7.5), (3, 0.0)]
+Normalized grade vector
+[(1, 7.5), (2, 7.5), (0, 2.5), (3, 0.0)]
+second point result  7.5 second vector result научный стиль
+We prefered point result
+Distance index's:  3 2  Point index's:  2 1
+Points
+2.5 7.5 7.5 0.0
+Normalized posibility vector
+[['публицистический стиль', 0.026576970458174275], ['научный стиль', 0.05228201570730867], ['художественный стиль', 0.06467612732745616], ['деловой стиль', 0.17328888074767593]]
+Final style matrix
+['D', 'None', 'Bussiness project(Low connectivity)', 'None'] 
+ ['None', 'D', 'Фэнтези', 'Очерк, фельетон, роман фельетон'] 
+ ['Bussiness project(Low connectivity)', 'Фэнтези', 'D', 'Sciefie(Low connectivity)'] 
+ ['None', 'Очерк, фельетон, роман фельетон', 'Sciefie(Low connectivity)', 'D']
+Answer
+Фэнтези OR LESS POSIBLE Sciefie(Low connectivity)
+#####################################################
+Not normalized grade vector
+[(0, 2.5), (1, 7.5), (2, 7.5), (3, 0.0)]
+Normalized grade vector
+[(1, 7.5), (2, 7.5), (0, 2.5), (3, 0.0)]
+second point result  7.5 second vector result научный стиль
+We prefered point result
+Distance index's:  3 2  Point index's:  2 1
+Points
+2.5 7.5 7.5 0.0
+Normalized posibility vector
+[['публицистический стиль', 0.03933508693419047], ['научный стиль', 0.04674777113213754], ['художественный стиль', 0.08842194300624187], ['деловой стиль', 0.17967635259044465]]
+Final style matrix
+['D', 'None', 'Bussiness project(Low connectivity)', 'None'] 
+ ['None', 'D', 'Фэнтези', 'Очерк, фельетон, роман фельетон'] 
+ ['Bussiness project(Low connectivity)', 'Фэнтези', 'D', 'Sciefie(Low connectivity)'] 
+ ['None', 'Очерк, фельетон, роман фельетон', 'Sciefie(Low connectivity)', 'D']
+Answer
+Фэнтези OR LESS POSIBLE Sciefie(Low connectivity)
+#####################################################
+Not normalized grade vector
+[(0, 2.5), (1, 7.5), (2, 7.5), (3, 0.0)]
+Normalized grade vector
+[(1, 7.5), (2, 7.5), (0, 2.5), (3, 0.0)]
+second point result  7.5 second vector result научный стиль
+We prefered point result
+Distance index's:  3 2  Point index's:  2 1
+Points
+2.5 7.5 7.5 0.0
+Normalized posibility vector
+[['публицистический стиль', 0.041709310768517485], ['научный стиль', 0.05642440755182417], ['художественный стиль', 0.08017268527300929], ['деловой стиль', 0.18957604237381975]]
+Final style matrix
+['D', 'None', 'Bussiness project(Low connectivity)', 'None'] 
+ ['None', 'D', 'Фэнтези', 'Очерк, фельетон, роман фельетон'] 
+ ['Bussiness project(Low connectivity)', 'Фэнтези', 'D', 'Sciefie(Low connectivity)'] 
+ ['None', 'Очерк, фельетон, роман фельетон', 'Sciefie(Low connectivity)', 'D']
+Answer
+Фэнтези OR LESS POSIBLE Sciefie(Low connectivity)
+#####################################################
+Not normalized grade vector
+[(0, 2.5), (1, 7.5), (2, 7.5), (3, 0.0)]
+Normalized grade vector
+[(1, 7.5), (2, 7.5), (0, 2.5), (3, 0.0)]
+second point result  7.5 second vector result публицистический стиль
+We prefered point result
+Distance index's:  1 3  Point index's:  2 1
+Points
+2.5 7.5 7.5 0.0
+Normalized posibility vector
+[['художественный стиль', 0.08162183175529697], ['публицистический стиль', 0.08457699727031384], ['научный стиль', 0.10587662527815149], ['деловой стиль', 0.23821575186667626]]
+Final style matrix
+['D', 'None', 'Bussiness project(Low connectivity)', 'None'] 
+ ['None', 'D', 'Фэнтези', 'Очерк, фельетон, роман фельетон'] 
+ ['Bussiness project(Low connectivity)', 'Фэнтези', 'D', 'Sciefie(Low connectivity)'] 
+ ['None', 'Очерк, фельетон, роман фельетон', 'Sciefie(Low connectivity)', 'D']
+Answer
+Фэнтези OR LESS POSIBLE Очерк, фельетон, роман фельетон
+#####################################################
+Not normalized grade vector
+[(0, 2.5), (1, 7.5), (2, 7.5), (3, 0.0)]
+Normalized grade vector
+[(1, 7.5), (2, 7.5), (0, 2.5), (3, 0.0)]
+second point result  7.5 second vector result научный стиль
+We prefered point result
+Distance index's:  3 2  Point index's:  2 1
+Points
+2.5 7.5 7.5 0.0
+Normalized posibility vector
+[['публицистический стиль', 0.032525853741052525], ['научный стиль', 0.04747627309237832], ['художественный стиль', 0.08025391961291098], ['деловой стиль', 0.1799217746075215]]
+Final style matrix
+['D', 'None', 'Bussiness project(Low connectivity)', 'None'] 
+ ['None', 'D', 'Фэнтези', 'Очерк, фельетон, роман фельетон'] 
+ ['Bussiness project(Low connectivity)', 'Фэнтези', 'D', 'Sciefie(Low connectivity)'] 
+ ['None', 'Очерк, фельетон, роман фельетон', 'Sciefie(Low connectivity)', 'D']
+Answer
+Фэнтези OR LESS POSIBLE Sciefie(Low connectivity)
+#####################################################
+Not normalized grade vector
+[(0, 2.5), (1, 7.5), (2, 0.0), (3, 2.5)]
+Normalized grade vector
+[(1, 7.5), (0, 2.5), (3, 2.5), (2, 0.0)]
+second point result  2.5 second vector result научный стиль
+We have 2 results
+Distance index's:  0 2  Point index's:  0 1
+Points
+2.5 7.5 0.0 2.5
+Normalized posibility vector
+[['деловой стиль', 0.0962751961145381], ['научный стиль', 0.16123905970114774], ['публицистический стиль', 0.16743835135780122], ['художественный стиль', 0.2018615380174313]]
+Final style matrix
+['D', 'None', 'Bussiness project(Low connectivity)', 'None'] 
+ ['None', 'D', 'Фэнтези', 'Очерк, фельетон, роман фельетон'] 
+ ['Bussiness project(Low connectivity)', 'Фэнтези', 'D', 'Sciefie(Low connectivity)'] 
+ ['None', 'Очерк, фельетон, роман фельетон', 'Sciefie(Low connectivity)', 'D']
+Answer
+Bussiness project(Low connectivity) None
+#####################################################
+Not normalized grade vector
+[(0, 2.5), (1, 7.5), (2, 2.5), (3, 0.0)]
+Normalized grade vector
+[(1, 7.5), (0, 2.5), (2, 2.5), (3, 0.0)]
+second point result  2.5 second vector result научный стиль
+We have 2 results
+Distance index's:  0 2  Point index's:  0 1
+Points
+2.5 7.5 2.5 0.0
+Normalized posibility vector
+[['деловой стиль', 0.0700695028465511], ['научный стиль', 0.16332926688681634], ['публицистический стиль', 0.17679694144920044], ['художественный стиль', 0.22180076010487793]]
+Final style matrix
+['D', 'None', 'Bussiness project(Low connectivity)', 'None'] 
+ ['None', 'D', 'Фэнтези', 'Очерк, фельетон, роман фельетон'] 
+ ['Bussiness project(Low connectivity)', 'Фэнтези', 'D', 'Sciefie(Low connectivity)'] 
+ ['None', 'Очерк, фельетон, роман фельетон', 'Sciefie(Low connectivity)', 'D']
+Answer
+Bussiness project(Low connectivity) None
+#####################################################
+Not normalized grade vector
+[(0, 2.5), (1, 7.5), (2, 7.5), (3, 0.0)]
+Normalized grade vector
+[(1, 7.5), (2, 7.5), (0, 2.5), (3, 0.0)]
+second point result  7.5 second vector result художественный стиль
+We have 2 results
+Distance index's:  3 1  Point index's:  2 1
+Points
+2.5 7.5 7.5 0.0
+Normalized posibility vector
+[['публицистический стиль', 0.10125643544199327], ['художественный стиль', 0.10737561569773338], ['научный стиль', 0.11712230296802512], ['деловой стиль', 0.24905627691728735]]
+Final style matrix
+['D', 'None', 'Bussiness project(Low connectivity)', 'None'] 
+ ['None', 'D', 'Фэнтези', 'Очерк, фельетон, роман фельетон'] 
+ ['Bussiness project(Low connectivity)', 'Фэнтези', 'D', 'Sciefie(Low connectivity)'] 
+ ['None', 'Очерк, фельетон, роман фельетон', 'Sciefie(Low connectivity)', 'D']
+Answer
+Очерк, фельетон, роман фельетон Фэнтези
+#####################################################
+Not normalized grade vector
+[(0, 2.5), (1, 7.5), (2, 2.5), (3, 0.0)]
+Normalized grade vector
+[(1, 7.5), (0, 2.5), (2, 2.5), (3, 0.0)]
+second point result  2.5 second vector result научный стиль
+We have 2 results
+Distance index's:  0 2  Point index's:  0 1
+Points
+2.5 7.5 2.5 0.0
+Normalized posibility vector
+[['деловой стиль', 0.0730586325203775], ['научный стиль', 0.16356056394613874], ['публицистический стиль', 0.17635486915889845], ['художественный стиль', 0.22036224883570937]]
+Final style matrix
+['D', 'None', 'Bussiness project(Low connectivity)', 'None'] 
+ ['None', 'D', 'Фэнтези', 'Очерк, фельетон, роман фельетон'] 
+ ['Bussiness project(Low connectivity)', 'Фэнтези', 'D', 'Sciefie(Low connectivity)'] 
+ ['None', 'Очерк, фельетон, роман фельетон', 'Sciefie(Low connectivity)', 'D']
+Answer
+Bussiness project(Low connectivity) None
+#####################################################
+#####################################################
+####################END OF CORPUS####################
+#####################################################
