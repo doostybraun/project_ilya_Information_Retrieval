@@ -1,0 +1,19 @@
+Функции для збора статистической информации 
+average_length_word
+betafunc
+medium_length
+most_common_tags
+same_neighbors_counter
+tokens_counter
+unique_words_counter
+tokens_counter
+tags_counter
+
+Функции для определения оценки принадлежности текста
+ImaginationDetectionFuncs
+MoneyDetectionFuncs
+PublicisticDetectionFuncs
+ScienceDetectionFuncs
+
+Функции для формирования рекомендации
+finalFunc
